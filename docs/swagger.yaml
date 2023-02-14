@@ -1,0 +1,20 @@
+info:
+  contact: {}
+paths:
+  /index:
+    get:
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      tags:
+      - 首页
+  /users:
+    get:
+      responses:
+        "200":
+          description: OK
+      tags:
+      - 首页
+swagger: "2.0"
